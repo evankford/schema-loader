@@ -16,6 +16,4 @@ export default function(source) {
   validate(schema, options, {
     name: "SchemaLoader"
   })
-  console.log("Schema Loader Running!");
-  console.log(source);
 }
